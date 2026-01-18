@@ -21,7 +21,7 @@ export const artworks: Artwork[] = [
     size: '24" x 36"',
     medium: 'Acrylic on Canvas',
     description: 'A stunning portrayal of the divine love between Radha and Krishna, painted with vibrant colors and intricate detailing that captures the essence of Indian mythology.',
-    image: 'https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?w=800&auto=format&fit=crop',
+    image: 'https://media.easy-peasy.ai/27feb2bb-aeb4-4a83-9fb6-8f3f2a15885e/a968fa51-2cb8-42c3-bf3a-529d756b522f_medium.webp',
     featured: true,
   },
   {
@@ -33,7 +33,7 @@ export const artworks: Artwork[] = [
     size: '18" x 24"',
     medium: 'Watercolor',
     description: 'An ethereal watercolor painting of a majestic peacock under the silver moonlight, showcasing the beauty of India\'s national bird.',
-    image: 'https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=800&auto=format&fit=crop',
+    image: 'https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcGQxMzUtMDg2LW5hcF8xLmpwZw.jpg',
     featured: true,
   },
   {
@@ -56,7 +56,7 @@ export const artworks: Artwork[] = [
     size: '30" x 40"',
     medium: 'Oil on Canvas',
     description: 'A mesmerizing oil painting depicting classical Indian dancers in motion, their movements captured like flames dancing in the wind.',
-    image: 'https://images.unsplash.com/photo-1549887534-1541e9326642?w=800&auto=format&fit=crop',
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZrmRuGo63fwaI1quK1fMjCqUEhEWD6TfXjA&s',
     featured: true,
   },
   {
@@ -90,7 +90,7 @@ export const artworks: Artwork[] = [
     size: 'A3',
     medium: 'Ink on Paper',
     description: 'An intricate ink sketch showcasing the magnificent architecture of ancient Indian temples with detailed carvings.',
-    image: 'https://images.unsplash.com/photo-1582738411706-bfc8e691d1c2?w=800&auto=format&fit=crop',
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4NZ1Cit6JFBsCMNHt5AIgPIz6juokFC4OFQ&s',
   },
   {
     id: '8',
@@ -101,7 +101,7 @@ export const artworks: Artwork[] = [
     size: '24" x 30"',
     medium: 'Acrylic on Canvas',
     description: 'A vibrant depiction of the Indian monsoon season, with lush green landscapes and dramatic rain clouds.',
-    image: 'https://images.unsplash.com/photo-1499781350541-7783f6c6a0c8?w=800&auto=format&fit=crop',
+    image: 'https://miro.medium.com/v2/resize:fit:1400/1*pxOmoRtFMwoJdUf-4lkTpg.jpeg',
   },
   {
     id: '9',
@@ -146,7 +146,7 @@ export const artworks: Artwork[] = [
     size: '24" x 36"',
     medium: 'Gouache',
     description: 'A miniature-style painting of a Mughal garden with intricate floral patterns, fountains, and traditional architecture.',
-    image: 'https://images.unsplash.com/photo-1518173946687-a4c036bc3c95?w=800&auto=format&fit=crop',
+    image: 'https://images.rawpixel.com/image_800/cHJpdmF0ZS9zdGF0aWMvZmlsZXMvd2Vic2l0ZS8yMDIzLTA0L3dhbTc4ODMtaW1hZ2UuanBn.jpg',
   },
 ];
 

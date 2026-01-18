@@ -8,9 +8,11 @@ export default function Footer() {
           {/* Brand */}
           <div className="md:col-span-1">
             <div className="flex items-center gap-2 mb-4">
-              <div className="w-10 h-10 rounded-full bg-primary flex items-center justify-center">
-                <span className="text-primary-foreground font-heading text-lg font-bold">D</span>
-              </div>
+              <img
+                src="/logo.png"
+                alt="Desi Art Hub Logo"
+                className="w-12 h-12 object-contain"
+              />
               <span className="font-heading text-xl font-semibold">Desi Art Hub</span>
             </div>
             <p className="text-background/70 text-sm leading-relaxed">
@@ -58,7 +60,7 @@ export default function Footer() {
             <h4 className="font-heading text-lg mb-4">Contact</h4>
             <div className="flex flex-col gap-2 text-sm text-background/70">
               <p>hello@desiarthub.com</p>
-              <p>+91 98765 43210</p>
+              <p>+91 93721 94085</p>
               <p>Mumbai, India</p>
             </div>
           </div>
@@ -66,7 +68,7 @@ export default function Footer() {
 
         <div className="mt-12 pt-8 border-t border-background/20 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-background/60 text-sm">
-            © 2025 Desi Art Hub. All rights reserved.
+            © 2025 Desi Art Hub by GD. All rights reserved.
           </p>
           <div className="flex gap-6">
             <span className="text-background/60 text-sm">100% Handmade</span>

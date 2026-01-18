@@ -22,9 +22,11 @@ export default function Header() {
         <div className="flex items-center justify-between h-16 md:h-20">
           {/* Logo */}
           <Link to="/" className="flex items-center gap-2">
-            <div className="w-10 h-10 rounded-full bg-primary flex items-center justify-center">
-              <span className="text-primary-foreground font-heading text-lg font-bold">D</span>
-            </div>
+            <img
+              src="/logo.png"
+              alt="Desi Art Hub Logo"
+              className="w-12 h-12 object-contain"
+            />
             <span className="font-heading text-xl font-semibold hidden sm:block">
               Desi Art Hub
             </span>
@@ -36,11 +38,10 @@ export default function Header() {
               <Link
                 key={link.path}
                 to={link.path}
-                className={`text-sm font-medium transition-colors hover:text-primary ${
-                  location.pathname === link.path
+                className={`text-sm font-medium transition-colors hover:text-primary ${location.pathname === link.path
                     ? 'text-primary'
                     : 'text-muted-foreground'
-                }`}
+                  }`}
               >
                 {link.name}
               </Link>
@@ -85,11 +86,10 @@ export default function Header() {
                   key={link.path}
                   to={link.path}
                   onClick={() => setIsMenuOpen(false)}
-                  className={`px-4 py-3 text-sm font-medium rounded-lg transition-colors ${
-                    location.pathname === link.path
+                  className={`px-4 py-3 text-sm font-medium rounded-lg transition-colors ${location.pathname === link.path
                       ? 'bg-primary/10 text-primary'
                       : 'hover:bg-muted'
-                  }`}
+                    }`}
                 >
                   {link.name}
                 </Link>
