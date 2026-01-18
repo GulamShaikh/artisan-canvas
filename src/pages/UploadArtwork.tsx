@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Upload, CheckCircle, X } from 'lucide-react';
+import { Upload, CheckCircle, X, ArrowLeft } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
 
 interface ArtworkFormData {
@@ -159,6 +159,15 @@ export default function UploadArtwork() {
     return (
         <div className="min-h-screen bg-gradient-to-br from-background via-background to-muted/20 pt-24 pb-16">
             <div className="container-art">
+                {/* Back Button */}
+                <button
+                    onClick={() => navigate('/')}
+                    className="mb-8 inline-flex items-center gap-2 text-muted-foreground hover:text-primary transition-colors font-medium border border-border px-4 py-2 rounded-full bg-background/50 hover:bg-background"
+                >
+                    <ArrowLeft className="w-4 h-4" />
+                    Back to Home
+                </button>
+
                 {/* Header */}
                 <div className="text-center mb-12">
                     <h1 className="font-heading text-4xl md:text-5xl font-bold mb-4 bg-gradient-to-r from-primary to-primary/60 bg-clip-text text-transparent">
