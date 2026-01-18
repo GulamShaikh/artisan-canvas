@@ -30,6 +30,9 @@ export default function Footer() {
               <Link to="/categories" className="text-background/70 hover:text-background text-sm transition-colors">
                 Categories
               </Link>
+              <Link to="/upload-artwork" className="text-background/70 hover:text-background text-sm transition-colors font-semibold">
+                Sell Your Art
+              </Link>
               <Link to="/about" className="text-background/70 hover:text-background text-sm transition-colors">
                 About Us
               </Link>

@@ -79,7 +79,7 @@ export const artworks: Artwork[] = [
     size: '20" x 24"',
     medium: 'Watercolor',
     description: 'A delicate watercolor painting of lotus flowers blooming at dawn, symbolizing purity and spiritual awakening.',
-    image: 'https://images.unsplash.com/photo-1541961017774-22349e4a1262?w=800&auto=format&fit=crop',
+    image: 'https://www.nguyenartgallery.com/wp-content/uploads/Dawn-IV-Vietnamese-Lacquer-painting-by-artist-Tran-Thieu-Nam.jpg',
   },
   {
     id: '7',

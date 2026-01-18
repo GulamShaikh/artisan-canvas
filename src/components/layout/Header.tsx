@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { Menu, X, ShoppingBag, User } from 'lucide-react';
+import { Menu, X, ShoppingBag, User, Palette } from 'lucide-react';
 import { useCart } from '@/context/CartContext';
 
 const navLinks = [
@@ -39,8 +39,8 @@ export default function Header() {
                 key={link.path}
                 to={link.path}
                 className={`text-sm font-medium transition-colors hover:text-primary ${location.pathname === link.path
-                    ? 'text-primary'
-                    : 'text-muted-foreground'
+                  ? 'text-primary'
+                  : 'text-muted-foreground'
                   }`}
               >
                 {link.name}
@@ -50,6 +50,13 @@ export default function Header() {
 
           {/* Right Actions */}
           <div className="flex items-center gap-4">
+            <Link
+              to="/upload-artwork"
+              className="hidden md:flex items-center gap-2 px-4 py-2 text-sm font-semibold bg-gradient-to-r from-primary to-primary/80 text-primary-foreground rounded-full hover:shadow-lg hover:scale-105 transition-all"
+            >
+              <Palette className="w-4 h-4" />
+              Sell Your Art
+            </Link>
             <Link
               to="/cart"
               className="relative p-2 hover:bg-muted rounded-full transition-colors"
@@ -87,13 +94,21 @@ export default function Header() {
                   to={link.path}
                   onClick={() => setIsMenuOpen(false)}
                   className={`px-4 py-3 text-sm font-medium rounded-lg transition-colors ${location.pathname === link.path
-                      ? 'bg-primary/10 text-primary'
-                      : 'hover:bg-muted'
+                    ? 'bg-primary/10 text-primary'
+                    : 'hover:bg-muted'
                     }`}
                 >
                   {link.name}
                 </Link>
               ))}
+              <Link
+                to="/upload-artwork"
+                onClick={() => setIsMenuOpen(false)}
+                className="px-4 py-3 text-sm font-semibold bg-gradient-to-r from-primary to-primary/80 text-primary-foreground rounded-lg flex items-center gap-2 hover:shadow-lg transition-all"
+              >
+                <Palette className="w-4 h-4" />
+                Sell Your Art
+              </Link>
               <Link
                 to="/login"
                 onClick={() => setIsMenuOpen(false)}
