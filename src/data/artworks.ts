@@ -21,7 +21,7 @@ export const artworks: Artwork[] = [
     size: '24" x 36"',
     medium: 'Acrylic on Canvas',
     description: 'A stunning portrayal of the divine love between Radha and Krishna, painted with vibrant colors and intricate detailing that captures the essence of Indian mythology.',
-    image: 'https://media.easy-peasy.ai/27feb2bb-aeb4-4a83-9fb6-8f3f2a15885e/a968fa51-2cb8-42c3-bf3a-529d756b522f_medium.webp',
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSi__NwwoHg2n3oAxrdHBaXgIBJIkOC4zdpWQ&s',
     featured: true,
   },
   {
@@ -45,7 +45,7 @@ export const artworks: Artwork[] = [
     size: 'A3',
     medium: 'Charcoal on Paper',
     description: 'A detailed charcoal sketch capturing the serene morning atmosphere of an Indian village, with traditional huts and early risers.',
-    image: 'https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=800&auto=format&fit=crop',
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSG9dEFnVJPFdZHEB2i6KSpXNjrwt4YucBCPQ&s',
   },
   {
     id: '4',
@@ -56,7 +56,7 @@ export const artworks: Artwork[] = [
     size: '30" x 40"',
     medium: 'Oil on Canvas',
     description: 'A mesmerizing oil painting depicting classical Indian dancers in motion, their movements captured like flames dancing in the wind.',
-    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZrmRuGo63fwaI1quK1fMjCqUEhEWD6TfXjA&s',
+    image: 'https://media.easy-peasy.ai/27feb2bb-aeb4-4a83-9fb6-8f3f2a15885e/97216663-d3eb-4245-be8f-61adaadf0412.png',
     featured: true,
   },
   {
@@ -68,7 +68,7 @@ export const artworks: Artwork[] = [
     size: 'A2',
     medium: 'Graphite Pencil',
     description: 'A hyperrealistic pencil drawing of an elderly sage, every wrinkle telling a story of wisdom and experience.',
-    image: 'https://images.unsplash.com/photo-1460661419201-fd4cecdf8a8b?w=800&auto=format&fit=crop',
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3_HhjtaUF_t6__MQAObIpiGNPQHzoaFkUYg&s',
   },
   {
     id: '6',
@@ -90,7 +90,7 @@ export const artworks: Artwork[] = [
     size: 'A3',
     medium: 'Ink on Paper',
     description: 'An intricate ink sketch showcasing the magnificent architecture of ancient Indian temples with detailed carvings.',
-    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4NZ1Cit6JFBsCMNHt5AIgPIz6juokFC4OFQ&s',
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-CFnGc_qeb2IBWIjqJc7b51DiOfc5CWS6Kw&s',
   },
   {
     id: '8',
@@ -112,7 +112,7 @@ export const artworks: Artwork[] = [
     size: 'A2',
     medium: 'Colored Pencil',
     description: 'A detailed colored pencil drawing of a Bharatanatyam dancer in a graceful pose, capturing the elegance of classical Indian dance.',
-    image: 'https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=800&auto=format&fit=crop',
+    image: 'https://i.pinimg.com/736x/fc/4b/8d/fc4b8d1351379f1a93767063aea96720.jpg',
   },
   {
     id: '10',
@@ -135,7 +135,7 @@ export const artworks: Artwork[] = [
     size: 'A3',
     medium: 'Charcoal on Paper',
     description: 'A peaceful charcoal sketch of the Himalayan mountains, capturing the majestic peaks and tranquil atmosphere.',
-    image: 'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&auto=format&fit=crop',
+    image: 'https://i.pinimg.com/736x/ce/a5/e4/cea5e41c7d62893a5c84826767b8797e.jpg',
   },
   {
     id: '12',
