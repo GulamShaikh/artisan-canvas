@@ -39,7 +39,7 @@ export default function Index() {
                 Discover <span className="text-primary">Authentic</span> Handmade Art
               </h1>
               <p className="text-elegant mb-8 max-w-lg">
-                Original paintings, sketches, and drawings made by talented Indian artists. 
+                Original paintings, sketches, and drawings made by talented Indian artists.
                 Bring home a piece of culture and creativity.
               </p>
               <div className="flex flex-wrap gap-4">
@@ -68,7 +68,7 @@ export default function Index() {
                 </div>
                 <div className="pt-8 space-y-4">
                   <img
-                    src="https://images.unsplash.com/photo-1549887534-1541e9326642?w=400&auto=format&fit=crop"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLkegxe_BKKWJN8KGaft6h5ZcNaalDAIqoEg&s"
                     alt="Featured painting"
                     className="rounded-lg shadow-card w-full"
                   />
