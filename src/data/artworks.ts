@@ -1,0 +1,172 @@
+export interface Artwork {
+  id: string;
+  title: string;
+  artist: string;
+  category: 'paintings' | 'sketches' | 'drawings';
+  price: number;
+  size: string;
+  medium: string;
+  description: string;
+  image: string;
+  featured?: boolean;
+}
+
+export const artworks: Artwork[] = [
+  {
+    id: '1',
+    title: 'Radha Krishna Divine Love',
+    artist: 'Priya Sharma',
+    category: 'paintings',
+    price: 12500,
+    size: '24" x 36"',
+    medium: 'Acrylic on Canvas',
+    description: 'A stunning portrayal of the divine love between Radha and Krishna, painted with vibrant colors and intricate detailing that captures the essence of Indian mythology.',
+    image: 'https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?w=800&auto=format&fit=crop',
+    featured: true,
+  },
+  {
+    id: '2',
+    title: 'Peacock in Moonlight',
+    artist: 'Arjun Mehta',
+    category: 'paintings',
+    price: 8500,
+    size: '18" x 24"',
+    medium: 'Watercolor',
+    description: 'An ethereal watercolor painting of a majestic peacock under the silver moonlight, showcasing the beauty of India\'s national bird.',
+    image: 'https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=800&auto=format&fit=crop',
+    featured: true,
+  },
+  {
+    id: '3',
+    title: 'Village Morning',
+    artist: 'Lakshmi Devi',
+    category: 'sketches',
+    price: 4500,
+    size: 'A3',
+    medium: 'Charcoal on Paper',
+    description: 'A detailed charcoal sketch capturing the serene morning atmosphere of an Indian village, with traditional huts and early risers.',
+    image: 'https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=800&auto=format&fit=crop',
+  },
+  {
+    id: '4',
+    title: 'Dancing Flames',
+    artist: 'Vikram Singh',
+    category: 'paintings',
+    price: 15000,
+    size: '30" x 40"',
+    medium: 'Oil on Canvas',
+    description: 'A mesmerizing oil painting depicting classical Indian dancers in motion, their movements captured like flames dancing in the wind.',
+    image: 'https://images.unsplash.com/photo-1549887534-1541e9326642?w=800&auto=format&fit=crop',
+    featured: true,
+  },
+  {
+    id: '5',
+    title: 'Portrait of Wisdom',
+    artist: 'Meera Krishnan',
+    category: 'drawings',
+    price: 6000,
+    size: 'A2',
+    medium: 'Graphite Pencil',
+    description: 'A hyperrealistic pencil drawing of an elderly sage, every wrinkle telling a story of wisdom and experience.',
+    image: 'https://images.unsplash.com/photo-1460661419201-fd4cecdf8a8b?w=800&auto=format&fit=crop',
+  },
+  {
+    id: '6',
+    title: 'Lotus at Dawn',
+    artist: 'Rahul Verma',
+    category: 'paintings',
+    price: 9500,
+    size: '20" x 24"',
+    medium: 'Watercolor',
+    description: 'A delicate watercolor painting of lotus flowers blooming at dawn, symbolizing purity and spiritual awakening.',
+    image: 'https://images.unsplash.com/photo-1541961017774-22349e4a1262?w=800&auto=format&fit=crop',
+  },
+  {
+    id: '7',
+    title: 'Temple Architecture',
+    artist: 'Ananya Reddy',
+    category: 'sketches',
+    price: 5500,
+    size: 'A3',
+    medium: 'Ink on Paper',
+    description: 'An intricate ink sketch showcasing the magnificent architecture of ancient Indian temples with detailed carvings.',
+    image: 'https://images.unsplash.com/photo-1582738411706-bfc8e691d1c2?w=800&auto=format&fit=crop',
+  },
+  {
+    id: '8',
+    title: 'Monsoon Dreams',
+    artist: 'Karthik Nair',
+    category: 'paintings',
+    price: 11000,
+    size: '24" x 30"',
+    medium: 'Acrylic on Canvas',
+    description: 'A vibrant depiction of the Indian monsoon season, with lush green landscapes and dramatic rain clouds.',
+    image: 'https://images.unsplash.com/photo-1499781350541-7783f6c6a0c8?w=800&auto=format&fit=crop',
+  },
+  {
+    id: '9',
+    title: 'Classical Dancer',
+    artist: 'Deepa Iyer',
+    category: 'drawings',
+    price: 7000,
+    size: 'A2',
+    medium: 'Colored Pencil',
+    description: 'A detailed colored pencil drawing of a Bharatanatyam dancer in a graceful pose, capturing the elegance of classical Indian dance.',
+    image: 'https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=800&auto=format&fit=crop',
+  },
+  {
+    id: '10',
+    title: 'Elephant Festival',
+    artist: 'Suresh Pillai',
+    category: 'paintings',
+    price: 18000,
+    size: '36" x 48"',
+    medium: 'Oil on Canvas',
+    description: 'A grand oil painting depicting the colorful elephant festival of Kerala, with decorated elephants and traditional festivities.',
+    image: 'https://images.unsplash.com/photo-1578301978693-85fa9c0320b9?w=800&auto=format&fit=crop',
+    featured: true,
+  },
+  {
+    id: '11',
+    title: 'Himalayan Serenity',
+    artist: 'Tenzin Wangmo',
+    category: 'sketches',
+    price: 5000,
+    size: 'A3',
+    medium: 'Charcoal on Paper',
+    description: 'A peaceful charcoal sketch of the Himalayan mountains, capturing the majestic peaks and tranquil atmosphere.',
+    image: 'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&auto=format&fit=crop',
+  },
+  {
+    id: '12',
+    title: 'Mughal Garden',
+    artist: 'Fatima Khan',
+    category: 'paintings',
+    price: 14000,
+    size: '24" x 36"',
+    medium: 'Gouache',
+    description: 'A miniature-style painting of a Mughal garden with intricate floral patterns, fountains, and traditional architecture.',
+    image: 'https://images.unsplash.com/photo-1518173946687-a4c036bc3c95?w=800&auto=format&fit=crop',
+  },
+];
+
+export const categories = [
+  {
+    id: 'paintings',
+    name: 'Paintings',
+    description: 'Original handpainted artwork on canvas and paper',
+    image: 'https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?w=600&auto=format&fit=crop',
+  },
+  {
+    id: 'sketches',
+    name: 'Sketches',
+    description: 'Detailed charcoal and ink sketches',
+    image: 'https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=600&auto=format&fit=crop',
+  },
+  {
+    id: 'drawings',
+    name: 'Drawings',
+    description: 'Pencil and colored pencil artwork',
+    image: 'https://images.unsplash.com/photo-1460661419201-fd4cecdf8a8b?w=600&auto=format&fit=crop',
+  },
+];
